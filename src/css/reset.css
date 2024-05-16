@@ -9,6 +9,7 @@ p {
   margin: 0;
 }
 
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -25,6 +26,8 @@ a {
 }
 
 button {
+  font-family: inherit;
+  color: currentColor;
   cursor: pointer;
 }
 
@@ -33,3 +36,36 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+.hide{
+  display: none;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+  text-decoration: none;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+a {
+  color: currentColor;
+  text-decoration: inherit;
+}
+
+
+
+
+
