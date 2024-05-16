@@ -1,25 +1,25 @@
-import axios from 'axios';
+// import axios from 'axios';
 
 
-// Описаний у документації
-import iziToast from "izitoast";
-// Додатковий імпорт стилів
-import "izitoast/dist/css/iziToast.min.css";
+// // Описаний у документації
+// import iziToast from "izitoast";
+// // Додатковий імпорт стилів
+// import "izitoast/dist/css/iziToast.min.css";
 
 
-// Описаний у документації
-import SimpleLightbox from "simplelightbox";
-// Додатковий імпорт стилів
-import "simplelightbox/dist/simple-lightbox.min.css";
+// // Описаний у документації
+// import SimpleLightbox from "simplelightbox";
+// // Додатковий імпорт стилів
+// import "simplelightbox/dist/simple-lightbox.min.css";
 
 
 
-const gallery = new SimpleLightbox('.gallery a',{
-    overlayOpacity: 8,
-    captionData: "href",
-    captionDelay: 250,
-    captionClass: "text-center"
-  });
+// const gallery = new SimpleLightbox('.gallery a',{
+//     overlayOpacity: 8,
+//     captionData: "href",
+//     captionDelay: 250,
+//     captionClass: "text-center"
+//   });
 
 
 
