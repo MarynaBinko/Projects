@@ -497,25 +497,27 @@ width: 100%;
   display: flex;
   align-items: baseline;
 }
-.footer-link {
-  margin-right: 120px;
-}
 
-.logo-footer {
-  color: #f4f4fd;
-  font-family: Raleway;
-  font-size: 18px;
+.footer-name{
+  color: #250254;
+  font-family: Roboto;
+  font-size: 32px;
   font-style: normal;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 264px;
+  padding-top: 16px;
 }
 
-.logo-bottom {
-  display: inline-block;
-  margin-bottom: 16px;
+.footer-caption{
+
 }
+
+
+
+
+
 
 .footer-description {
   color: #f4f4fd;
